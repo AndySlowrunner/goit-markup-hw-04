@@ -177,7 +177,7 @@ img {
   padding-top: 96px;
   padding-bottom: 120px;
 }
-  .section-title {
+.section-title {
   color: var(--headings-color);
 
   font-size: 36px;
@@ -199,23 +199,21 @@ img {
 .features-list {
   display: flex;
 }
-.features-list .item::before {
-  display: block;
-  content: '';
-  background-color: #F4F4FD;
-  width: 264px;
-  height: 112px;
-  margin-bottom: 8px;
-  background-image: url(../images/antenna-1.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 64px;
-}
 .features-list .item {
   width: 264px;
 }
 .features-list .item + .item {
   margin-left: 24px;
+}
+.features-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #F4F4FD;
+  width: 264px;
+  height: 112px;
+  margin-bottom: 8px;
+  border-radius: 4px;
 }
 
 /* Our Work */
@@ -246,6 +244,21 @@ img {
 .box {
   padding-top: 32px;
   padding-bottom: 32px;
+}
+.list-box {
+  display: flex;
+  margin: 8px 16px 0 16px;
+  gap: 24px;
+}
+.link-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--primery-color);
+  width: 40px;
+  height: 40px;
+  margin: 4px 0;
+  border-radius: 50%;
 }
 
 /* Projects style */
