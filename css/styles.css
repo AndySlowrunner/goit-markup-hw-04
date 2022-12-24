@@ -260,7 +260,22 @@ img {
   margin: 4px 0;
   border-radius: 50%;
 }
-
+.customers-list {
+  display: flex;
+  margin-top: 72px;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 24px;
+}
+.customers-link-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 168px;
+  height: 88px;
+  border: 1px solid #8E8F99;
+  border-radius: 4px;
+}
 /* Projects style */
 .projects-list {
   display: flex;
