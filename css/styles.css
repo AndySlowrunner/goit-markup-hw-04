@@ -272,6 +272,12 @@ img {
   margin: 4px 0;
   border-radius: 50%;
 }
+.link-box:hover,
+.link-box:focus {
+  background-color: #404bbf;
+}
+
+/* Customers */
 .customers-list {
   display: flex;
   margin-top: 72px;
@@ -285,16 +291,17 @@ img {
   justify-content: center;
   width: 168px;
   height: 88px;
+  color: #8E8F99;
   border: 1px solid #8E8F99;
   border-radius: 4px;
 }
 .customers-link-box:hover,
 .customers-link-box:focus {
+  color: #404BBF;
   border: 1px solid #404BBF
 }
-.customer-list icon:hover,
-.customer-list icon:focus {
-  fill: yellowgreen;
+.customers-link-box .icon {
+  fill: currentColor;
 }
 
 /* Projects style */
@@ -376,6 +383,10 @@ img {
   width: 40px;
   height: 40px;
   border-radius: 50%;
+}
+.footer-link:hover,
+.footer-link:focus {
+  background-color: #31D0AA;
 }
 .footer .text {
   color: #e7e9fc;
